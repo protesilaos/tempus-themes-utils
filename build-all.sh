@@ -59,4 +59,7 @@ do
 
     $generator $i yaml > $tempusdir/yaml/tempus_$i.yml
     echo "Preparing Tempus $i YAML files"
+
+    $generator $i shell-variables > $tempusdir/shell-variables/tempus_$i.sh
+    echo "Preparing Tempus $i shell variable files"
 done
