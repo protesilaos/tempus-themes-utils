@@ -13,7 +13,7 @@
     # You should have received a copy of the GNU General Public License
     # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# Builds all Xfce4-terminal content files for all items of the Tempus Themes collection
+# Builds all Konsole content files for all items of the Tempus Themes collection
 # This is a utility intended for automating the process of mainting the relevant repos
 
 # IMPORTANT The script requires the tempus-themes-generator git repo at the home directory
