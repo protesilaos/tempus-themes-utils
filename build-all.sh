@@ -39,6 +39,12 @@ do
     $generator $i gtksourceview3 > $tempusdir/gtksourceview3/tempus_$i.xml
     echo "Preparing Tempus $i GTK3 Source View files"
 
+    $generator $i konsole > $tempusdir/konsole/tempus_$i.colorscheme
+    echo "Preparing Tempus $i Konsole terminal files"
+
+    $generator $i shell-variables > $tempusdir/shell-variables/tempus_$i.sh
+    echo "Preparing Tempus $i shell variable files"
+
     $generator $i tilix > $tempusdir/tilix/tempus_$i.json
     echo "Preparing Tempus $i Tilix files"
 
@@ -59,7 +65,4 @@ do
 
     $generator $i yaml > $tempusdir/yaml/tempus_$i.yml
     echo "Preparing Tempus $i YAML files"
-
-    $generator $i shell-variables > $tempusdir/shell-variables/tempus_$i.sh
-    echo "Preparing Tempus $i shell variable files"
 done

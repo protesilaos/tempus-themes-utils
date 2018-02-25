@@ -16,5 +16,5 @@
 # Helper script to copy an arbitrary file across all `tempus-themes*` directories.
 for i in $(ls -d $HOME/tempus-themes* | grep -v $HOME/tempus-themes-generator)
 do
-    cp $HOME/CONTRIBUTING.md $i/
+    cp $HOME/tempus-themes-utils/LICENSE $i/
 done
