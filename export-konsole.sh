@@ -31,6 +31,6 @@ mkdir -p $outputdir
 # Build all files for each item in the array
 for i in $schemes
 do
-    $generator $i konsole > $outputdir/tempus_${i}.theme
+    $generator $i konsole > $outputdir/tempus_${i}.colorscheme
     echo "Preparing to export Tempus $i Konsole files"
 done
