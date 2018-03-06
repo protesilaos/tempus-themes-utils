@@ -42,6 +42,9 @@ do
     $generator $i konsole > $tempusdir/konsole/tempus_$i.colorscheme
     echo "Preparing Tempus $i Konsole terminal files"
 
+    $generator $i st > $tempusdir/st/tempus_$i.h
+    echo "Preparing Tempus $i st (simple terminal) files"
+
     $generator $i shell-variables > $tempusdir/shell-variables/tempus_$i.sh
     echo "Preparing Tempus $i shell variable files"
 
