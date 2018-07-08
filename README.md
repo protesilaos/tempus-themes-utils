@@ -1,6 +1,8 @@
 # Tempus Themes (By Protesilaos Stavrou)
 #### Helper scripts and utilities for the project's maintenance
 
+**DEPRECATION NOTICE — [MOVED TO GITLAB](https://gitlab.com/protesilaos/tempus-themes-utils).**
+
 This repo contains various scripts used to streamline the maintenance of the Tempus themes project.
 
 ## Naming conventions
